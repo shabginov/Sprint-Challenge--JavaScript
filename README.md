@@ -29,15 +29,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.forEach method doesn't return anything unlike .map method which returns a new modified array
 
 2. What is the difference between a function and a method?
+method is a function declared inside an object or a class
 
 3. What is closure?
 
 4. Describe the four rules of the 'this' keyword.
+- in global scope 'this' keyword refers to the window object
+- when a function is called on an object, 'this' is refered to this object
+- in a constructor function 'this' refers to the specific instance of the object which was created by the constructor function
+-  when call or apply methods are used 'this' is explicitly defined
 
 5. Why do we need super() in an extended class?
-
+super keyword calls the methods on the parent class
 ## Project Set up
 
 Follow these steps to set up and work on your project:
