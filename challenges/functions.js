@@ -38,7 +38,7 @@ function greeting(firstName, lastName) {
 // Explain in your own words why nestedfunction can access the variable internal.
 
 // Explanation: 
-// nestedfunction doesn't have any variables in its local scope, so when it's executed, it looks up
+// nestedFunction doesn't have any variables in its local scope declared, so when it's executed, it looks up
 // in the scope above. In this case it is available inside myFunction so it can access it.
 // 
 //
